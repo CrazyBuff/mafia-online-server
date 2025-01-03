@@ -1,0 +1,28 @@
+{
+  "name": "mafia-online-server",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/CrazyBuff/mafia-online-server#readme",
+  "bugs": {
+    "url": "https://github.com/CrazyBuff/mafia-online-server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrazyBuff/mafia-online-server.git"
+  },
+  "license": "ISC",
+  "author": "Renchie",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.4",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@types/ws": "^8.5.13",
+    "ws": "^8.18.0"
+  }
+}
