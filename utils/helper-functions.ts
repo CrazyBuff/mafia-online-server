@@ -18,3 +18,13 @@ export const validateSessionId = (sessionId: string) => {
 
   return false;
 };
+
+export const generateSessionId = () => {
+  let mask = "";
+  mask += "abcdefghijklmnopqrstuvwxyz";
+  mask += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  mask += "0123456789";
+  var result = "";
+  for (let i = length; i > 0; --i) result += mask[Math.round(Math.random() * (mask.length - 1))];
+  return result;
+};
